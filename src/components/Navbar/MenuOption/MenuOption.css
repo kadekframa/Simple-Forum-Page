@@ -1,0 +1,12 @@
+.menu {
+    
+}
+
+.menu .btn {
+    padding: 8px;
+    margin: 3px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #71695F;
+    color: white;
+}
