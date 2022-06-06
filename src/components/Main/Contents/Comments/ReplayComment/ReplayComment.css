@@ -1,0 +1,34 @@
+.wrapper-replay-comment {
+    display: flex;
+    margin: 20px 0 0 104px;
+}
+
+.wrapper-replay-comment img {
+    width: 42px;
+    height: 42px;
+
+}
+
+.wrapper-replay-comment .desc-comment {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2px 20px;
+}
+
+.wrapper-replay-comment .desc-comment .commentor-name {
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+.wrapper-replay-comment .desc-comment .time-comment {
+    font-size: 10px;
+    margin: 0 0 8px 0;
+}
+
+.wrapper-replay-comment .desc-comment .comment {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}

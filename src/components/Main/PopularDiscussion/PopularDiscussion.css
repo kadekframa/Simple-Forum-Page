@@ -2,8 +2,9 @@
     color: #333333;
     font-size: 16px;
     text-align: left;
-    padding: 16px 0 0 16px;
+    padding: 0px 0 0 16px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .top-discussion {
@@ -12,8 +13,52 @@
     padding-left: 16px;
 }
 
-.top-discussion p {
+.top-discussion a {
     font-size: 12px;
     text-align: left;
     padding-left: 16px;
+    margin: 6px 0;
+    color: #333333;
+    text-decoration-color: white;
+}
+
+.top-discussion a:hover {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 16px;
+    margin: 6px 0;
+    color: #333333;
+    text-decoration-color: rgb(34, 34, 34);
+}
+
+@media screen and (min-width: 389px) {
+    .top-discussion-wrapper {
+        margin-bottom: 50px;
+    }
+    .popular-discussion {
+        font-size: 19px;
+    }
+    .top-discussion a {
+        font-size: 14px;
+    }
+
+    .top-discussion a:hover {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 689px) {
+    .top-discussion-wrapper {
+        margin-bottom: 50px;
+    }
+    .popular-discussion {
+        font-size: 16px;
+    }
+    .top-discussion a {
+        font-size: 12px;
+    }
+
+    .top-discussion a:hover {
+        font-size: 12px;
+    }
 }

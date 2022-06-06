@@ -1,11 +1,8 @@
 import React from 'react';
-import './SearchInput.css'
 
-const SearchInput= () => {
+const SearchInput= (props) => {
   return (
-    <div className='inputSearch'>
-      <input type="text" className='input' placeholder='Search' />
-    </div>
+      <input type="text" className={props.className} placeholder={props.placeholder} />
   )
 }
 

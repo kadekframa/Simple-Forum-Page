@@ -1,12 +1,176 @@
-.menu {
-    
-}
-
-.menu .btn {
+/* Navigation button */
+.nav-btn {
     padding: 8px;
     margin: 3px;
     border-radius: 4px;
     border: 0;
-    background-color: #71695F;
+    background-color: #615a52;
     color: white;
 }
+
+.nav-btn:hover {
+    background-color: #f1f1f1aa;
+}
+
+.nav-btn:active {
+    background-color: #ffffffaf;
+}
+
+
+/* Modal */
+
+body.active-modal-login {
+    overflow-y: hidden;
+}
+
+body.active-modal-register {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-success-login {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #099fcd00;
+    padding: 20px 20px;
+    border-radius: 3px;
+    /* display: none; */
+}
+
+.modal-success-login .success-popup {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 60px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.modal-success-login .success-popup p {
+    font-size: 20px;
+}
+
+.modal-success-login .success-popup button {
+    color: white;
+    margin: 10px 0 6px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #42c08c;
+    font-size: 16px;
+}
+
+.modal-success-login .success-popup button:hover {
+    background-color: rgba(133, 255, 184, 0.726);
+}
+
+.modal-content {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #2b8fae00;
+    padding: 20px 20px;
+    border-radius: 3px;
+    max-width: 1000px;
+    min-width: 634px;
+}
+
+.close-modal {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    background-color: rgb(255, 123, 0);
+    border: 0;
+}
+
+
+
+/* Form Login */
+
+  .container  form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 590px;
+    border: 1px solid #dfdfdf;
+    padding: 10px 20px 20px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+  }
+
+  .container  form .login-heading {
+      margin: 10px 0 15px;
+
+  }
+
+  .container  form .field input {
+    padding: 10px;
+    margin: 2px 0;
+    position: relative;
+    width: 96%;
+    border: 1px solid #969696;
+    border-radius: 4px ;
+  }
+
+  .container  form .field {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 2px;
+  }
+  
+  .container  form .btn {
+    color: white;
+    position: relative;
+    border: 0px;
+    padding: 18px 40px;
+    border-radius: 6px;
+    background-color: #615a52;
+    font-size: 16px;
+  }
+  
+  .container  form .btn:hover {
+      background-color: rgba(114, 114, 114, 0.478);
+  }
+
+  
+
+  pre {
+    width: 70%;
+    color: rgba(255, 255, 255, 0.815);
+    font-size: larger;
+  }
+
+  .form .error-warning {
+      font-size: 14px;
+      color: rgb(235, 133, 0);
+      margin-top: 0;
+      padding-left: 6px;
+  }

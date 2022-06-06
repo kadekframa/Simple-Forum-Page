@@ -1,0 +1,121 @@
+@media screen and (min-width: 289px) {
+    .modal-success-login .success-popup {
+        text-align: center;
+        flex-direction: column;
+        padding: 6px 46px;
+    }
+
+    .modal-success-login .success-popup p {
+        font-size: 18px;
+    }
+
+    .modal-success-login .success-popup button {
+        color: white;
+        margin: 0 0 16px;
+        padding: 10px;
+    }
+    
+    .modal-content {
+        max-width: 1000px;
+        min-width: 10px;
+        justify-content: center;
+    }
+
+    .container  form {
+        width: 220px;
+    }s
+
+    .modal-content {
+        top: 55%;
+    }
+}
+
+@media screen and (min-width: 389px) {
+    .modal-success-login .success-popup {
+        text-align: center;
+        flex-direction: column;
+        padding: 6px 46px;
+    }
+
+    .modal-success-login .success-popup p {
+        font-size: 18px;
+    }
+
+    .modal-success-login .success-popup button {
+        color: white;
+        margin: 0 0 16px;
+        padding: 10px;
+    }
+
+    .modal-content {
+        max-width: 1000px;
+        min-width: 10px;
+        justify-content: center;
+    }
+
+    .container  form {
+        width: 300px;
+    }s
+
+    .modal-content {
+        top: 55%;
+    }
+}
+
+@media screen and (min-width: 489px) {
+    .modal-success-login .success-popup {
+        text-align: center;
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+
+    .modal-content {
+        max-width: 1000px;
+        min-width: 10px;
+        justify-content: center;
+    }
+
+    .container  form {
+        width: 360px;
+    }s
+
+    .modal-content {
+        top: 58%;
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 689px) {
+    .modal-content {
+        max-width: 1000px;
+        min-width: 10px;
+        justify-content: center;
+    }
+
+    .container  form {
+        width: 460px;
+    }s
+
+    .modal-content {
+        top: 58%;
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 899px) {
+    .modal-content {
+        max-width: 1000px;
+        min-width: 10px;
+        justify-content: center;
+    }
+
+    .container  form {
+        width: 540px;
+    }
+
+    .modal-content {
+        top: 58%;
+        left: 50%;
+    }
+}
+

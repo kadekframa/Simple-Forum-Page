@@ -1,5 +1,7 @@
 import React from 'react';
 import ForumTitle from './ForumTitle';
+import Comments from './Comments';
+import AddingComments from './AddingComments';
 import './Contents.css';
 
 class Contents extends React.Component {
@@ -11,11 +13,11 @@ class Contents extends React.Component {
             </article>
 
             <article className='forum-comment_component'>
-              <p>Contents</p>
+              <Comments />
             </article>
 
             <section className='adding-comment_component'>
-              <p>Contents</p>
+              <AddingComments />
             </section>
           </React.Fragment>
         );

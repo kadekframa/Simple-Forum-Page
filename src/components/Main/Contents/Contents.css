@@ -1,7 +1,7 @@
 .forum-title_component {
-    border-bottom: 1px solid rgb(92, 92, 92);
+    border-bottom: 2px solid rgb(240, 240, 240);
 }
 
 .forum-comment_component {
-    border-bottom: 1px solid rgb(92, 92, 92);
+    border-bottom: 2px solid rgb(240, 240, 240);
 }
